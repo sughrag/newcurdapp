@@ -34,6 +34,7 @@ const Home = () => {
             empdatachange(resp);
         }).catch((err) => {
             console.log(err.message);
+            
         })
     }, [])
     return (

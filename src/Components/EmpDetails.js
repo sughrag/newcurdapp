@@ -11,7 +11,7 @@ const EmpDetails = () => {
         fetch("http://localhost:8000/employee/" + empid).then((res) => {
             return res.json();
         }).then((resp) => {
-            empdatachange(resp);
+            empdatachange(resp); 
         }).catch((err) => {
             console.log(err.message);
         })

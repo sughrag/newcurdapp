@@ -112,6 +112,7 @@ const EmpEdit = () => {
                     </div>
 
                 </form>
+                
 
             </div>
         </div>
